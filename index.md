@@ -1,6 +1,6 @@
 Contenido:
 
-1- Tira de LEDs
+1- Tira de LEDs	
 2- Adaptador
 3- Dimmer
 4- Fuente Switching
