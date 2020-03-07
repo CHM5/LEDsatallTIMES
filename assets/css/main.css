@@ -195,11 +195,47 @@ input, select, textarea {
 /* Container */
 
 	.container {
-		margin: 0 auto;
+		margin-top: 100px;
 		max-width: 100%;
 		width: 1400px;
 	}
 
+	.newarrival
+	{
+		background: green;
+		width: 50px;	
+		color: white;
+		font-size: 12px;
+		font-weight: bold;
+	}
+
+	.col-md-7 h2
+	{
+		color: #555;
+	}
+
+	.price
+	{
+		color: #FF980F;
+		font-size: 26px;
+		font-weight: bold;
+		padding-top: 20px;
+	}
+	input
+	{
+		border: 1px solid #ccc;
+		font-weight: bold;
+		height: 33px;
+		text-align: center;
+		width: 30px;
+	}
+	.cart
+	{
+		background: #FF980F;
+		color: #FFFFFF;
+		font-size: 15px;
+		margin-left: 20px;
+	}
 		@media screen and (max-width: 1680px) {
 
 			.container {
@@ -2684,5 +2720,4 @@ input, select, textarea {
 			#copyright {
 				text-align: left;
 			}
-
 	}
