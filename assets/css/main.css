@@ -236,6 +236,7 @@ input, select, textarea {
 		font-size: 15px;
 		margin-left: 20px;
 	}
+
 		@media screen and (max-width: 1680px) {
 
 			.container {
@@ -2720,4 +2721,7 @@ input, select, textarea {
 			#copyright {
 				text-align: left;
 			}
+
+	
 	}
+
