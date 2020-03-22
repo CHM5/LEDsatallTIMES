@@ -214,7 +214,7 @@
 	h1, h2, h3, h4, h5, h6 {
 		color: #313f47;
 		line-height: 1.5;
-		margin: 0 0 0.75em 0;
+		margin: 0 0 0.1em 0;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -230,8 +230,10 @@
 	}
 
 	h2 {
-		font-size: 1.15em;
+		font-size: 1em;
+		letter-spacing: 0.05em;
 		text-transform: uppercase;
+		margin: 1em 0em 0em 0em;
 	}
 
 	h3 {	/*frase*/
@@ -243,7 +245,8 @@
 	}
 
 	h5 {
-		font-size: 1em;
+		font-size: 1.5em;
+		font-weight: bold;
 	}
 
 	h6 {
@@ -566,18 +569,18 @@
 
 	ol {
 		list-style: decimal;
-		margin: 0 0 1.5em 0;
+		margin: 0 0 0.1em 0;
 		padding-left: 1.25em;
 	}
 
 		ol li {
-			padding-left: 0.25em;
+			padding-left: 0.1em;
 		}
 
 	ul {
 		list-style: disc;
 		margin: 0 0 0 0; /*interespaciado arr aba der izq*/
-		padding-left: 1em;
+		padding-left: 0.1em;
 	}
 
 		ul li {
@@ -600,16 +603,16 @@
 				}
 
 	dl {
-		margin: 0 0 1.5em 0;
+		margin: 0 0 0.5em 0;
 	}
 
 		dl dt {
 			display: block;
-			margin: 0 0 0.75em 0;
+			margin: 0 0 0.15em 0;
 		}
 
 		dl dd {
-			margin-left: 1.5em;
+			margin-left: 0.5em;
 		}
 
 /* Actions */
@@ -621,12 +624,12 @@
 		display: flex;
 		cursor: default;
 		list-style: none;
-		margin-left: -0.75em;
+		margin-left: -0.15em;
 		padding-left: 0;
 	}
 
 		ul.actions li {
-			padding: 0 0 0 0.75em;
+			padding: 0 0 0 0.15em;
 			vertical-align: middle;
 		}
 
@@ -745,7 +748,7 @@
 
 		ul.icons li { 
 			display: inline-block;
-			padding: 0.675em 0.5em; /* interespaciado*/
+			padding: 0.01em 1em; /* interespaciado*/
 		}
 
 			ul.icons li a {
@@ -929,25 +932,23 @@
 		#main .avatar {
 			position: relative;
 			display: block;
-			margin-bottom: 1.5em;
+			margin-bottom: 4em;	/*distancia inferior con texto*/
 		}
 
 			#main .avatar img {
 				display: block;
-				margin: 0 auto;
-				border-radius: 100%;
-				box-shadow: 0 0 0 1.5em #ffffff;
+				margin: -1.2em -1.3em; /*Tamaño especial ventana blanca principal*/
+				border-radius: 3%;
+				box-shadow: 0 0 0 0 #ffffff;
 			}
 
 			#main .avatar:before {
 				content: '';
 				display: block;
-				position: absolute;
-				top: 50%;
-				left: -3em;
-				width: calc(100% + 6em);
-				height: 1px;
-				z-index: -1;
+				position: relative;
+				top: 0%;
+				left: 10em;
+				z-index: -300;
 				background: #c8cccf;
 			}
 
