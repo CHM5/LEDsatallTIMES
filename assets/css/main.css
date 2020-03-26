@@ -940,7 +940,11 @@
 				display: block;
 				margin: -1.2em -1.3em; /*Tamaño especial ventana blanca principal*/
 				border-radius: 3%;
+<<<<<<< HEAD
 				/*box-shadow: 0 0 0 0 #ffffff;*/
+=======
+				box-shadow: 0 0 0 0 #ffffff;
+>>>>>>> a39b37de7770dd8514b5300cfdc73bc29de91f76
 			}
 
 			#main .avatar:before {
